@@ -1,0 +1,19 @@
+sklearn v0.23.1
+Random Forest with 15 features:
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'mse', 'max_depth': 20, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'min_samples_leaf': 2, 'min_samples_split': 5, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': 100, 'verbose': 0, 'warm_start': False}
+Comment: Top 15 RFE feature from base features from 4 elemental x(min, max, avg) + 5 structural (41 initial features)
+Training set size = 26343, test set size = 2927, total number = 29270, test_size (fraction) = 0.1
+random_state = 100, n_splits_kfold = 10
+
+R2_base = 0.0 %
+RMSE_baseline = 1.24 eV
+MAE_baseline = 0.9 eV
+R2_training = 97.9 %
+RMSE_training = 0.18 eV
+MAE_training = 0.11 eV
+R2_cv = 92.1 %
+RMSE_cv: 0.35
+MAE_cv: 0.20
+R2_test = 92.8 %
+RMSE_test = 0.33 eV
+MAE_test = 0.20 eV
