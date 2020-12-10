@@ -17,7 +17,7 @@ The database csv files can easily be loaded using `pandas.read_csv`. The columns
 - `slab`: The surface slab as a Pymatgen dictionary 
 - `energy`: Total energy of slab in eV 
 - `Fermi`: Fermi level in eV
-- `convergence`: DFT convergence parameters, E_cutoff - kx - ky - kz
+- `convergence`: DFT convergence parameters, *E*<sub>cutoff</sub> - *k*<sub>x</sub> - *k*<sub>y</sub> - *k*<sub>z</sub>
 - `nsites`: Number of atomic sites in the slab unit cell
 - `slab_thickness`: Slab thickness in Angstroms
 - `nterm`: Number of unique terminations for given orientation/material
@@ -29,7 +29,9 @@ The folder `ML_model` contains code to generate surfaces from bulk input structu
 
 ### Requirements
 
-The code has been tested with Python 3.6.6 and the following packages/versions: `ase==3.20.1`,`pymatgen==2020.6.8`,`scikit-learn==0.23.1`,`pandas==1.0.1`,`joblib==0.16.0` but may run with newer versions as well.
+The code has been tested with Python 3.6.6 and the following packages/versions: 
+`ase==3.20.1`, `pymatgen==2020.6.8`, `scikit-learn==0.23.1`, `pandas==1.0.1`, `joblib==0.16.0`, 
+but may run with newer versions as well.
 
 ### How to use
 
